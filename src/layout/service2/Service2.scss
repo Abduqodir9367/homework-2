@@ -1,0 +1,98 @@
+.Service2 {
+  .big {
+    border-radius: 24px;
+    background: #211f54;
+    // padding-right: 74px;
+    display: flex;
+    align-items: center;
+    column-gap: 72px;
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding-top: 60px;
+      h3 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+        margin-bottom: 17px;
+      }
+      h1 {
+        color: #fff;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 57.984px;
+        width: 491px;
+        margin: 18px;
+        margin-left: -5px;
+      }
+      P {
+        color: #fff;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30.006px;
+        width: 474px;
+        margin-bottom: 12px;
+      }
+      .btns {
+        display: flex;
+        align-items: center;
+        column-gap: 28px;
+        .btn1 {
+          color: #fff;
+          text-align: center;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 20px;
+          border-radius: 14px;
+          background: #0075ff;
+          padding: 26px 36px;
+          border: none;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .calls {
+          display: flex;
+          align-items: center;
+          column-gap: 16px;
+          a {
+            text-decoration: none;
+          }
+
+          .call {
+            display: flex;
+            flex-direction: column;
+            // row-gap: 4px;
+            align-items: start;
+            margin-top: -10px;
+            .num {
+              color: #6e7191;
+              font-size: 16px;
+              font-weight: 400;
+              letter-spacing: 1.6px;
+              text-transform: uppercase;
+              width: 134px;
+            }
+            h3 {
+              font-size: 28px;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+    margin-bottom: 156px;
+  }
+  .line {
+    background: #dcddeb;
+    width: 1220px;
+    height: 1px;
+    flex-shrink: 0;
+    margin-bottom: 147px;
+  }
+}

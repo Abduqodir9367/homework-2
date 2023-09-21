@@ -1,0 +1,30 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.bitns {
+  display: flex;
+  column-gap: 24px;
+  button {
+    color: #211f54;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.006px;
+    padding: 18px 23px;
+    border: 1px solid #211f54;
+    border-radius: 14px;
+    background-color: transparent;
+    &:hover {
+      background: #0075ff;
+      color: white;
+      transition: 0.2s;
+    }
+  }
+}
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
